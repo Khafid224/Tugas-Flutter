@@ -4,22 +4,22 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       home: HomePage(),
     );
   }
 }
 
 class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
+  const HomePage({super.key});
 
   @override
   State<HomePage> createState() => _HomePageState();
@@ -32,7 +32,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("HTTP DELETE"),
+        title: const Text("HTTP DELETE"),
         actions: [
           IconButton(
             onPressed: () async {
@@ -45,15 +45,15 @@ class _HomePageState extends State<HomePage> {
                     "Akun : ${mybody['data']['first_name']} ${mybody['data']['last_name']}";
               });
             },
-            icon: Icon(Icons.get_app),
+            icon: const Icon(Icons.get_app),
           ),
         ],
       ),
       body: ListView(
-        padding: EdgeInsets.all(20),
+        padding: const EdgeInsets.all(20),
         children: [
           Text(data),
-          SizedBox(height: 35),
+          const SizedBox(height: 35),
           ElevatedButton(
             onPressed: () async {
               var response =
@@ -64,7 +64,7 @@ class _HomePageState extends State<HomePage> {
                 });
               }
             },
-            child: Text("DELETE"),
+            child: const Text("DELETE"),
           ),
         ],
       ),

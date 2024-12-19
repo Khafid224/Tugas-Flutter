@@ -4,22 +4,22 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       home: HomePage(),
     );
   }
 }
 
 class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
+  const HomePage({super.key});
 
   @override
   State<HomePage> createState() => _HomePageState();
@@ -35,33 +35,33 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("HTTP PUT / PATCH"),
+        title: const Text("HTTP PUT / PATCH"),
       ),
       body: ListView(
-        padding: EdgeInsets.all(20),
+        padding: const EdgeInsets.all(20),
         children: [
           TextField(
             controller: nameC,
             autocorrect: false,
             keyboardType: TextInputType.text,
-            decoration: InputDecoration(
+            decoration: const InputDecoration(
               border: OutlineInputBorder(),
               labelText: "Name",
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 15,
           ),
           TextField(
             controller: jobC,
             autocorrect: false,
             keyboardType: TextInputType.text,
-            decoration: InputDecoration(
+            decoration: const InputDecoration(
               border: OutlineInputBorder(),
               labelText: "job",
             ),
           ),
-          SizedBox(height: 15),
+          const SizedBox(height: 15),
           ElevatedButton(
             onPressed: () async {
               var myresponse = await http.patch(
@@ -76,13 +76,13 @@ class _HomePageState extends State<HomePage> {
                 hasilResponse = "${data['name']} - ${data['job']}";
               });
             },
-            child: Text("SUBMIT"),
+            child: const Text("SUBMIT"),
           ),
-          SizedBox(height: 50),
-          Divider(
+          const SizedBox(height: 50),
+          const Divider(
             color: Colors.black,
           ),
-          SizedBox(height: 10),
+          const SizedBox(height: 10),
           Text(hasilResponse),
         ],
       ),

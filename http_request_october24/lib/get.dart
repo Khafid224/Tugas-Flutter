@@ -4,22 +4,22 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       home: HomePage(),
     );
   }
 }
 
 class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
+  const HomePage({super.key});
 
   @override
   State<HomePage> createState() => _HomePageState();
@@ -42,7 +42,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("HTTP GET"),
+        title: const Text("HTTP GET"),
       ),
       body: Center(
         child: Column(
@@ -50,23 +50,23 @@ class _HomePageState extends State<HomePage> {
           children: [
             Text(
               "ID : $id",
-              style: TextStyle(
+              style: const TextStyle(
                 fontSize: 20,
               ),
             ),
             Text(
               "EMAIL : $email",
-              style: TextStyle(
+              style: const TextStyle(
                 fontSize: 20,
               ),
             ),
             Text(
               "NAME : $name",
-              style: TextStyle(
+              style: const TextStyle(
                 fontSize: 20,
               ),
             ),
-            SizedBox(height: 15),
+            const SizedBox(height: 15),
             ElevatedButton(
               onPressed: () async {
                 var myresponse =
@@ -88,7 +88,7 @@ class _HomePageState extends State<HomePage> {
                   print("ERROR ${myresponse.statusCode}");
                 }
               },
-              child: Text("GET DATA"),
+              child: const Text("GET DATA"),
             ),
           ],
         ),
