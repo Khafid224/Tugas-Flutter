@@ -1,16 +1,20 @@
 # http_request_october24
-
 Pertemuan 4 (get post put/patch delete)
 
-## Getting Started
+## Pertama, kita perlu menambahkan dependency di pubspec.yaml
+```bash
+http: ^1.2.0
+```
+## uji coba get data
+![get](https://github.com/user-attachments/assets/a9e9c56d-b1fb-4bb1-979f-889e7f041ea2)
 
-This project is a starting point for a Flutter application.
+## uji coba post data
+![posst](https://github.com/user-attachments/assets/5213e4a8-2bdb-4551-8b27-1bb5399849a6)
 
-A few resources to get you started if this is your first Flutter project:
+## uji coba put/patch data
+![put](https://github.com/user-attachments/assets/8cdc6f44-fa45-4063-80a9-b402618ab61f)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## uji coba delete data
+![delete](https://github.com/user-attachments/assets/af0f86c3-d44d-4852-acd5-23bcfb9fd88a)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# untuk lebih jelasnya & pendeskripsian bisa cek koding saya...
