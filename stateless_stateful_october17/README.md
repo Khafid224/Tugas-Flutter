@@ -1,16 +1,13 @@
-# stateless_stateful_october17
+## halaman utama 
+![main](https://github.com/user-attachments/assets/ca56cb15-80f6-4dbd-909f-8ba054c1641f)
 
-A new Flutter project.
+## halaman dialog & snackbar
+![dialong](https://github.com/user-attachments/assets/dfef36e8-2b57-44f6-97a2-9ec73fa51c85)
+![snackbar](https://github.com/user-attachments/assets/b03fc912-072e-421b-aa6a-f67b908fc3d6)
+## Untuk deskripsi nya bisa diliat di coding ku..
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
