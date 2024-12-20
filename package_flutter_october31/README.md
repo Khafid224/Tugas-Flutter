@@ -15,4 +15,6 @@ Pertemuan 5 ( Faker, Intl, Bottom, Avatar glow, Lottie, API )
 ![menu k4](https://github.com/user-attachments/assets/36acddd1-e3ad-4460-aabe-43a09522781e)
 ![menu k5](https://github.com/user-attachments/assets/872db197-32e8-4963-a053-e09bb16e0eb9)
 
+## uji coba avatar glow
+![avatar](https://github.com/user-attachments/assets/f7d3dbeb-9e2f-47fd-a00f-859a44a405e2)
 
