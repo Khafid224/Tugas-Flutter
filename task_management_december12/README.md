@@ -2,15 +2,23 @@
 
 Pertemuan 9
 
-## Getting Started
+## Pertama, masukkan kode depen di pubspec.yaml lalu pub get
+```bash
+get : ^4.6.6
+```
+## Menjalankan Project
+![main](https://github.com/user-attachments/assets/c0d1c260-98f0-4e1e-b467-91c0c61fea4c)
 
-This project is a starting point for a Flutter application.
+## uji coba tambah task
+![add_task](https://github.com/user-attachments/assets/6bd53444-6c13-429f-aab7-0c5b0bb0df6a)
+![add](https://github.com/user-attachments/assets/fde5c4fd-363e-482a-9d1c-efb95545b960)
 
-A few resources to get you started if this is your first Flutter project:
+## uji coba edit task 
+![edit](https://github.com/user-attachments/assets/9894e8a3-c132-4537-adeb-911be96740ab)
+![edit2](https://github.com/user-attachments/assets/8f5c906e-dea2-4b09-a096-1718fc645fef)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## uji coba delete task
+![tombol kotak](https://github.com/user-attachments/assets/8a07e725-0eda-482f-8f1c-e905cdaf0541)
+![delete](https://github.com/user-attachments/assets/33d918b9-86ed-420c-898b-466e47113900)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Sebagaimana screenshot diatas telah berhasill dijalankan..
